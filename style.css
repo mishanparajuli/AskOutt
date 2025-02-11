@@ -1,0 +1,68 @@
+body {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin: 0;
+    background-color: #ffe4e1; /* Light pink for romantic vibe */
+    background-image: url('https://www.example.com/romantic-background.jpg'); /* Optional: background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #e91e63; /* Romantic color for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for magic */
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    font-size: 22px;
+    padding: 14px 28px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff4081; /* Romantic pink for the buttons */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #ff5c8d; /* Lighter pink on hover */
+    transform: scale(1.1); /* Grow on hover */
+}
+
+.popup {
+    display: none;
+    background-color: #fff;
+    border: 2px solid #e91e63; /* Romantic pink for the border */
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: #e91e63;
+}
+
+.popup.fade-in {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
