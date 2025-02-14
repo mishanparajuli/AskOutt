@@ -3,21 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suprise...!</title>
+    <title>Surprise...!</title>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Will you go on a magical date with me?</h1>
+        <h1>Will you wanna be my Valentine? 💖</h1>
         <div class="buttons">
             <button id="no-btn">No</button>
             <button id="yes-btn">Yes</button>
         </div>
+        
         <div class="popup" id="popup">
-            <p>You made my day | Saloon at 9 Tomorrow ! 💖</p>
+            <p>You made my day! 💖 Now, pick a date:</p>
+            <div class="date-options">
+                <button class="date-btn" data-date="Coffee Date">Coffee Date</button>
+                <button class="date-btn" data-date="Dinner Date">Dinner Date</button>
+                <button class="date-btn" data-date="Movie Night">Movie Night</button>
+            </div>
         </div>
+
+        <div class="popup" id="final-popup">
+            <p id="final-message"></p>
+        </div>
+
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
